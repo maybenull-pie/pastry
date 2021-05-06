@@ -32,9 +32,10 @@ https://github.com/PieInsurance/Shared/compare/3.0/feature/dev...3.0/spike/INS-1
 
 Squad IPA solutions wanting to consume native messages must update Pie Shared package reference to version with required mods.  Pie Shared pre release build 3.0.2104.2936-INS-1337-upgrade-aws-sqs has required mods.
 
-Policies spike/INS-1337-native-spike is already updated.  Note th
+Policies spike/INS-1337-native-spike is already updated. 
 
 # Notes
-* ISqsHappened is not required to be Message.Contracts
+* ISqsHappened is not required to be in Message.Contracts
 * Workers appSettings.Development.json sets the MessageTransport for this spike.  This is only needed to test locally
 * Still need to convert a few example from the original node spike.  (e.g. sending SNS, sending IDecisionIssued event, sending Commands)
+* This did ont spike recieving messages in this library
