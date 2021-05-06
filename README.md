@@ -6,8 +6,14 @@ Wraps AWS python SDK to send and revieve messages to Pie's SQS and SNS
 * Python 3.8.8
 
 # Setup
+Python
 ```
 python setup.py
+```
+Env
+```
+copy .env.example to .env
+TEST
 ```
 
 # TLDR
