@@ -37,4 +37,4 @@ Policies spike/INS-1337-native-spike is already updated.  Note th
 # Notes
 * ISqsHappened is not required to be Message.Contracts
 * Workers appSettings.Development.json sets the MessageTransport for this spike.  This is only needed to test locally
-* 
+* Still need to convert a few example from the original node spike.  (e.g. sending SNS, sending IDecisionIssued event, sending Commands)
