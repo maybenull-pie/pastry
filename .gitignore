@@ -1,0 +1,28 @@
+# Visual Studio IDE Files
+.vs/
+.vscode/
+*.user
+
+# JetBrains IDE Files
+.idea/
+*.iml
+
+# Miscellaneous
+.user
+.DS_Store
+debug.log
+
+# Python Files
+*.pyc
+*~
+
+# Python Directories
+.cache
+__pycache__
+/venv/
+.pytest_cache/
+
+
+# Environment Config File
+.env
+pytest.ini
